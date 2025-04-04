@@ -1,0 +1,204 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*Header Hissəsi*/
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(44, 62, 80);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  padding-left: 70px;
+}
+
+header ul li {
+  color: #fff;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  padding-right: 40px;
+}
+
+/*into hissəsi*/
+
+.intro {
+  background-color: rgb(26, 188, 156);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro img {
+  width: 260px;
+  height: 254px;
+}
+
+.intro h1 {
+  font-size: 90px;
+  color: #fff;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 25px;
+}
+
+/*Portfolio Hissəsi*/
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.l {
+  color: rgb(44, 62, 80);
+  font-size: 60px;
+  text-align: center;
+}
+
+.box {
+  width: 400px;
+  height: 280px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: rgb(33, 37, 41);
+}
+
+.box img {
+  width: 400px;
+  height: 280px;
+}
+
+/*About Hissəsi*/
+
+.about {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(26, 188, 156);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.about h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.sarame {
+  max-width: 400px;
+  font-size: 20px;
+}
+
+.about a {
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.about a:hover {
+  background-color: #fff;
+  color: rgb(44, 62, 80);
+}
+
+/*Contact Hissəsi*/
+
+.contact {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h1 {
+  color: rgb(33, 37, 41);
+  font-size: 60px;
+}
+
+.contact label {
+  color: rgb(33, 37, 41);
+  font-size: 40px;
+}
+
+.contact input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 500px;
+  height: 50px;
+}
+
+textarea {
+  resize: none;
+  width: 500px;
+  height: 120px;
+}
+
+button {
+  width: 90px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: rgb(26, 188, 156);
+}
+
+/*Footer Hissəsi*/
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(33, 37, 41);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.footer h2 {
+  font-size: 40px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+.footer i {
+  width: 60px;
+  height: 60px;
+}
+
+.footer a {
+  color: rgb(26, 188, 156);
+}
+
+.footer2 {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(3, 3, 3);
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
